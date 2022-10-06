@@ -10,7 +10,7 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   const handleNav = () => {
-    setNav(!nav);
+    setNav(nav);
   };
 
   const handleSignOut = async () => {
