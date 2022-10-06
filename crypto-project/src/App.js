@@ -36,7 +36,6 @@ function App() {
           <Route path="/coin/:coinId" element={<CoinPage />}>
             <Route path=":coinId" />
           </Route>
-          ;
         </Routes>
         <Footer />
       </AuthContextProvider>
